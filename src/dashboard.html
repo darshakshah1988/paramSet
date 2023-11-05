@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="./images/style2.css" />
+</head>
+<body>
+  <div class="settingsScreen">
+    <div class="menu">
+      <ul>
+        <li> <a href="dashboard.html">Timer</a> </li>
+        <li> <a href="logdata.html">LogData</a> </li>
+        <li> <a href="diagnosis.html">Diagnosis</a> </li>
+        <li><a href="user.html"> User Administration</a> </li>
+        <li><a href="settings.html"> Settings</a> </li>
+        <li><a href="info.html"> Help</a> </li>
+        <li><a href="global.html">Global settings</a></li>
+        <li><a href="data.html">Data</a></li>
+      <ul>
+        </div>
+  </div>
+  <div style="width:100%;float:right;background:grey;color:white;padding:5px"><a href="add.html" style="float:right;color:black">+ Add</a></div>
+  <div class="valve-area">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzNppyEz9ZU20xwuyC9YTBh7mwoSbCz6rvFRBoWAxayHi3CO23aDDZIokaP2USEEPNib4&usqp=CAU" />
+        <a href="config.html" id="infoWindow">
+        <p align="center">Timer-1</p>
+        </a>
+    
+  </div>
+
+  <script src="./assets/jquery.js"></script>
+
+  <script>
+    $(document).ready(function() {
+      const timer = window.localStorage.getItem("timer");
+      const mainArea = $(".valve-area");
+      if(timer == null)
+      {
+        timer = {};
+      }
+      
+      
+        const html = `<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzNppyEz9ZU20xwuyC9YTBh7mwoSbCz6rvFRBoWAxayHi3CO23aDDZIokaP2USEEPNib4&usqp=CAU" />
+        <a href="config.html" id="infoWindow">
+        <p align="center">Timer-1</p>
+        </a>`;
+        mainArea.innerHTML += html;
+      
+    });
+  </script>
+</body>
+</html>

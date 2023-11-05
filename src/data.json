@@ -1,0 +1,31 @@
+{
+    "products": [
+  {"thk1":"0.5","thk2":"0.5","force":"136","weldTime":"100","current":"4.9","nuggetDia":"3.5","targetNuget":"3.73","kw":"","tearStrength":"240","electrodDia":"4.8","spotDistance":"9","sheetOverlap":"11","combination":"0.5-0.5"},
+  {"thk1":"0.5","thk2":"0.8","force":"136","weldTime":"100","current":"5.6","nuggetDia":"3.5","targetNuget":"3.73","kw":"","tearStrength":"240","electrodDia":"4.8","spotDistance":"9","sheetOverlap":"11","combination":"0.5-0.8"},
+  {"thk1":"0.5","thk2":"1","force":"136","weldTime":"100","current":"6","nuggetDia":"3.5","targetNuget":"3.73","kw":"","tearStrength":"240","electrodDia":"4.8","spotDistance":"9","sheetOverlap":"11","combination":"0.5-1"},
+  {"thk1":"0.5","thk2":"1.2","force":"136","weldTime":"100","current":"6.4","nuggetDia":"3.5","targetNuget":"3.73","kw":"","tearStrength":"240","electrodDia":"4.8","spotDistance":"9","sheetOverlap":"11","combination":"0.5-1.2"},
+  {"thk1":"0.5","thk2":"1.5","force":"136","weldTime":"100","current":"6.9","nuggetDia":"3.5","targetNuget":"3.73","kw":"","tearStrength":"240","electrodDia":"4.8","spotDistance":"9","sheetOverlap":"11","combination":"0.5-1.5"},
+  {"thk1":"0.5","thk2":"1.8","force":"136","weldTime":"100","current":"7.4","nuggetDia":"3.5","targetNuget":"3.73","kw":"","tearStrength":"240","electrodDia":"4.8","spotDistance":"9","sheetOverlap":"11","combination":"0.5-1.8"},
+  {"thk1":"0.5","thk2":"2","force":"136","weldTime":"100","current":"7.7","nuggetDia":"3.5","targetNuget":"3.73","kw":"","tearStrength":"240","electrodDia":"4.8","spotDistance":"9","sheetOverlap":"11","combination":"0.5-2"},
+  {"thk1":"0.5","thk2":"2.2","force":"136","weldTime":"100","current":"8","nuggetDia":"3.5","targetNuget":"3.73","kw":"","tearStrength":"240","electrodDia":"4.8","spotDistance":"9","sheetOverlap":"11","combination":"0.5-2.2"},
+  {"thk1":"0.5","thk2":"2.5","force":"136","weldTime":"100","current":"8.5","nuggetDia":"3.5","targetNuget":"3.73","kw":"","tearStrength":"240","electrodDia":"4.8","spotDistance":"9","sheetOverlap":"11","combination":"0.5-2.5"},
+  {"thk1":"0.5","thk2":"3","force":"136","weldTime":"100","current":"9.3","nuggetDia":"3.5","targetNuget":"3.73","kw":"","tearStrength":"240","electrodDia":"4.8","spotDistance":"9","sheetOverlap":"11","combination":"0.5-3"},
+  {"thk1":"0.5","thk2":"3.5","force":"136","weldTime":"100","current":"9.3","nuggetDia":"3.5","targetNuget":"3.73","kw":"","tearStrength":"240","electrodDia":"4.8","spotDistance":"9","sheetOverlap":"11","combination":"0.5-3.5"},
+  {"thk1":"0.5","thk2":"4","force":"136","weldTime":"100","current":"10.4","nuggetDia":"3.5","targetNuget":"3.73","kw":"","tearStrength":"240","electrodDia":"4.8","spotDistance":"9","sheetOverlap":"11","combination":"0.5-4"},
+  {"thk1":"0.5","thk2":"4.5","force":"136","weldTime":"100","current":"10.9","nuggetDia":"3.5","targetNuget":"3.73","kw":"","tearStrength":"240","electrodDia":"4.8","spotDistance":"9","sheetOverlap":"11","combination":"0.5-4.5"},
+  {"thk1":"0.5","thk2":"5","force":"136","weldTime":"100","current":"11.5","nuggetDia":"3.5","targetNuget":"3.73","kw":"","tearStrength":"240","electrodDia":"4.8","spotDistance":"9","sheetOverlap":"11","combination":"0.5-5"},
+  {"thk1":"0.8","thk2":"0.8","force":"190","weldTime":"160","current":"6.2","nuggetDia":"4.5","targetNuget":"4.72","kw":"","tearStrength":"440","electrodDia":"4.8","spotDistance":"13","sheetOverlap":"11","combination":"0.8-0.8"},
+  {"thk1":"0.8","thk2":"1","force":"190","weldTime":"160","current":"6.6","nuggetDia":"4.5","targetNuget":"4.72","kw":"","tearStrength":"440","electrodDia":"4.8","spotDistance":"13","sheetOverlap":"11","combination":"0.8-1"},
+  {"thk1":"0.8","thk2":"1.2","force":"190","weldTime":"160","current":"6.9","nuggetDia":"4.5","targetNuget":"4.72","kw":"","tearStrength":"440","electrodDia":"4.8","spotDistance":"13","sheetOverlap":"11","combination":"0.8-1.2"},
+  {"thk1":"0.8","thk2":"1.5","force":"190","weldTime":"160","current":"7.4","nuggetDia":"4.5","targetNuget":"4.72","kw":"","tearStrength":"440","electrodDia":"4.8","spotDistance":"13","sheetOverlap":"11","combination":"0.8-1.5"},
+  {"thk1":"0.8","thk2":"1.8","force":"190","weldTime":"160","current":"7.9","nuggetDia":"4.5","targetNuget":"4.72","kw":"","tearStrength":"440","electrodDia":"4.8","spotDistance":"13","sheetOverlap":"11","combination":"0.8-1.8"},
+  {"thk1":"0.8","thk2":"2","force":"190","weldTime":"160","current":"8.2","nuggetDia":"4.5","targetNuget":"4.72","kw":"","tearStrength":"440","electrodDia":"4.8","spotDistance":"13","sheetOverlap":"11","combination":"0.8-2"},
+  {"thk1":"0.8","thk2":"2.2","force":"190","weldTime":"160","current":"8.5","nuggetDia":"4.5","targetNuget":"4.72","kw":"","tearStrength":"440","electrodDia":"4.8","spotDistance":"13","sheetOverlap":"11","combination":"0.8-2.2"},
+  {"thk1":"0.8","thk2":"2.5","force":"190","weldTime":"160","current":"8.9","nuggetDia":"4.5","targetNuget":"4.72","kw":"","tearStrength":"440","electrodDia":"4.8","spotDistance":"13","sheetOverlap":"11","combination":"0.8-2.5"},
+  {"thk1":"0.8","thk2":"3","force":"190","weldTime":"160","current":"9.5","nuggetDia":"4.5","targetNuget":"4.72","kw":"","tearStrength":"440","electrodDia":"4.8","spotDistance":"13","sheetOverlap":"11","combination":"0.8-3"},
+  {"thk1":"0.8","thk2":"3.5","force":"190","weldTime":"160","current":"10.1","nuggetDia":"4.5","targetNuget":"4.72","kw":"","tearStrength":"440","electrodDia":"4.8","spotDistance":"13","sheetOverlap":"11","combination":"0.8-3.5"},
+  {"thk1":"0.8","thk2":"4","force":"190","weldTime":"160","current":"10.7","nuggetDia":"4.5","targetNuget":"4.72","kw":"","tearStrength":"440","electrodDia":"4.8","spotDistance":"13","sheetOverlap":"11","combination":"0.8-4"},
+  {"thk1":"0.8","thk2":"4.5","force":"190","weldTime":"160","current":"11.3","nuggetDia":"4.5","targetNuget":"4.72","kw":"","tearStrength":"440","electrodDia":"4.8","spotDistance":"13","sheetOverlap":"11","combination":"0.8-4.5"},
+  {"thk1":"0.8","thk2":"5","force":"190","weldTime":"160","current":"11.8","nuggetDia":"4.5","targetNuget":"4.72","kw":"","tearStrength":"440","electrodDia":"4.8","spotDistance":"13","sheetOverlap":"11","combination":"0.8-5"}
+  ]
+  }

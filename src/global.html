@@ -1,0 +1,224 @@
+<style>
+    .outer {
+  display: flex;
+  border: 1px solid grey;
+  flex-direction: column;
+  
+}
+.content {
+  display: flex;
+}
+.area1, .area2, .area3 {
+  min-width: 20%;
+  padding: 5px;
+  border: 1px solid black;
+  text-align: center;
+  display:flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  margin:5px; 
+}
+.area1 {
+  width: 30%;
+}
+.area2 {
+  width: 30% !important;
+}
+.area3 {
+  width: 30% ;
+}
+
+.img {
+  width:25px;
+  height: 25px;
+  background: green;
+  float:left;
+  margin-right: 5px;
+}
+.grey {
+  background: grey !important;
+}
+.text {
+  display: flex;
+  padding: 5px;
+  margin: 2px;
+}
+
+input[type="text"] {
+  width: 50px;
+}
+
+button {
+  width: 150px;
+  background: blue;
+  color: white;
+}
+
+.buttonContainer {
+  float:left;
+}
+</style>
+<title>Global Settings</title>
+<link rel="stylesheet" href="./images/style2.css" />
+<div class="settingsScreen">
+    <div class="menu">
+      <ul>
+        <li> <a href="dashboard.html">Timer</a> </li>
+        <li> <a href="logdata.html">LogData</a> </li>
+        <li> <a href="diagnosis.html">Diagnosis</a> </li>
+        <li><a href="user.html"> User Administration</a> </li>
+        <li><a href="settings.html"> Settings</a> </li>
+        <li><a href="info.html"> Help</a> </li>
+        <li><a href="global.html">Global settings</a></li>
+      <ul>
+        </div>
+  </div>
+<div class="outer">
+    <b><u>Global Settings</u></b>
+    <div class="content">
+    <div class="area1">
+      <b><u>Global Counter Settings <input type="checkbox" /></u></b>
+      <br>
+      <table>
+        <tr>
+          <th></th>
+          <th>set. value</th>
+          <th>act. value</th>
+        </tr>
+        <tr>
+          <td>Tip Dress</td>
+          <td><input type="text" /></td>
+          <td><input type="text" /></td>
+        </tr>
+         <tr>
+          <td>Tip Change</td>
+          <td><input type="text" /></td>
+          <td><input type="text" /></td>
+        </tr>
+         <tr>
+          <td>Spot Count</td>
+          <td><input type="text" /></td>
+          <td><input type="text" /></td>
+        </tr>
+         <tr>
+          <td>Job Count</td>
+          <td><input type="text" /></td>
+          <td><input type="text" /></td>
+        </tr>
+         <tr>
+          <td>Life Count</td>
+          <td><input type="text" /></td>
+          <td></td>
+        </tr>
+      </table>
+    </div>
+    <div class="area2">
+      <b><u>Stepper Setting: <input type="checkbox" /></u></b>
+      <table>
+        <tr>
+          <th>Step No</th>
+          <th>Step count</th>
+          <th>Current %</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td><input type="text" /></td>
+          <td><input type="text" /></td>
+        </tr>
+         <tr>
+          <td>2</td>
+          <td><input type="text" /></td>
+          <td><input type="text" /></td>
+        </tr>
+         <tr>
+          <td>3</td>
+          <td><input type="text" /></td>
+          <td><input type="text" /></td>
+        </tr>
+         <tr>
+          <td>4</td>
+          <td><input type="text" /></td>
+          <td><input type="text" /></td>
+        </tr>
+         <tr>
+          <td>5</td>
+          <td><input type="text" /></td>
+          <td><input type="text" /></td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td><input type="text" /></td>
+          <td><input type="text" /></td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td><input type="text" /></td>
+          <td><input type="text" /></td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td><input type="text" /></td>
+          <td><input type="text" /></td>
+        </tr>
+        <tr>
+          <td>9</td>
+          <td><input type="text" /></td>
+          <td><input type="text" /></td>
+        </tr>
+        <tr>
+          <td>10</td>
+          <td><input type="text" /></td>
+          <td><input type="text" /></td>
+        </tr>
+      </table>
+      <br>
+    </div>
+      <div class="area3">
+        <b><u>IO parameter setting: <input type="checkbox" /></u></b>
+     <table>
+       <tr>
+         <th>Pulse Limit</th>
+         <th><input type="checkbox" /></th>
+       </tr>
+       <tr>
+         <th>Pre Squeeze</th>
+         <th><input type="checkbox" /></th>
+       </tr>
+       <tr>
+         <th>End of Hold</th>
+         <th><select><option></option></select> ms</th>
+       </tr>
+       <tr>
+         <th>Max. Weld Limit</th>
+         <th><input type="text" /></th>
+       </tr>
+       <tr>
+         <th>Max. Current Limit</th>
+         <th><input type="text" /></th>
+       </tr>
+        </table>
+      <br>
+         <b><u>Diaods <input type="checkbox" /></u></b>
+     <table>
+       <tr>
+         <th>Monitoring</th>
+         <th><input type="checkbox" /></th>
+       </tr>
+       <tr>
+         <th>Switch Temprature</th>
+         <th><input type="checkbox" /></th>
+       </tr>
+       <tr>
+         <th>Main Voltage of last Weld.</th>
+         <th><input type="text" />[V]</th>
+       </tr>
+        </table>
+      </div>
+    </div>
+    <div class="buttonContainer">
+    <button>Save</button>
+    <button>Send</button>
+    <button>Back</button>
+    </div>
+  </div>

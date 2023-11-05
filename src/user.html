@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <title>User Management</title>
+        <style>
+            .um {
+                width: 98%;
+                height:500px;
+                padding: 5px;
+            }
+            .userManagement {
+                width: 100%;
+                float: left;
+            }
+            
+            .um2 {
+                width: 300px;
+                height: auto;
+            }
+            .um3 {
+                width: 750px;
+                height: 300px;
+            }
+            .userForm {
+                display: flex;
+                flex-direction: column;
+            }
+        </style>
+    </head>
+    <body>
+        <link rel="stylesheet" href="./images/style2.css" />
+<div class="settingsScreen">
+    <div class="menu">
+        <ul>
+            <li> <a href="dashboard.html">Timer</a> </li>
+            <li> <a href="logdata.html">LogData</a> </li>
+            <li> <a href="diagnosis.html">Diagnosis</a> </li>
+            <li><a href="user.html"> User Administration</a> </li>
+            <li><a href="settings.html"> Settings</a> </li>
+            <li><a href="info.html"> Help</a> </li>
+            <li><a href="global.html">Global settings</a></li>
+          <ul>
+    </div>
+  </div>
+  <div class="um">
+    <fieldset class="userManagement">
+        <legend>
+            User Management
+        </legend>
+        
+    
+        <fieldset class="um2">
+            <legend>Edit / Delete User</legend>
+            <form class="userForm">
+                <label for="username">Username</label>
+                <input id="username" type="text" name="username" />
+    
+                <label for="username">Password</label>
+                <input id="username" type="text" name="username" />
+    
+                <label for="username">Email ID</label>
+                <input id="username" type="text" name="username" />
+    
+                <label for="username">Role</label>
+                <select>
+                    <option>Admin</option>
+                </select>
+    
+            </form>
+        </fieldset>
+        
+        <fieldset class="um3">
+            <legend>User Details</legend>
+        </fieldset>
+    
+    </fieldset>
+  </div>
+    </body>
+</html>

@@ -1,0 +1,44 @@
+# electron js HTML page to add all tasks in JSON and store JSON in local storage #
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Electron JS HTML Page to Add All Tasks in JSON and Store JSON in Local Storage</title>
+  <script src="assets/jquery.js"></script>
+</head>
+<body>
+  <form id="add-task-form">
+    <label for="task">Task:</label>
+    <input type="text" id="task" />
+    <button type="button" id="add-task">Add Task</button>
+  </form>
+
+  <ul id="tasks"></ul>
+
+  <script>
+    
+    $("#add-task").on("click", function() {
+        
+        const task = document.getElementById("task").value;    
+
+        tasks.push(task);   
+       
+        window.localStorage.setItem("tasks",tasks);
+        
+       
+
+        console.log(tasks);
+
+        // const taskJson = JSON.stringify(tasks);
+        // window.localStorage.setItem("tasks", taskJson);
+        // const tasksUl = document.getElementById("tasks");
+        // const listItem = document.createElement("li");
+        // listItem.innerText = task;
+        // tasksUl.appendChild(listItem);
+    });
+  </script>
+</body>
+</html>
+
+

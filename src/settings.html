@@ -1,0 +1,183 @@
+
+<head>
+    <title>Settings</title>
+    <style>
+        .outer, .outer2 {
+  display: flex;
+}
+.general, .Transformer, .ForeceSettings {
+  width: 300px;
+  height: 180px;
+  display: flex;
+  flex-direction : column;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 5px;
+}
+.Ethernet {
+  width: 500px;
+  height: 180px;
+  display: flex;
+  flex-direction : column;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 5px;
+}
+.Ethernet > form {
+  line-height: 1.8
+}
+
+.sensorChek {
+  width: 350px;
+  height: 350px;
+  display: flex;
+  flex-direction : column;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 5px;
+}
+.sensorChek > form {
+  line-height: 1.8;
+}
+
+.generalForm {
+  display : flex;
+  flex-direction : column;
+}
+.MissingSheetDetection {
+  width: 200px;
+  height: 180px;
+  display: flex;
+  flex-direction : column;
+  border: 1px solid black;
+  padding: 10px;
+  float:left
+}
+
+table {
+  border: 1px solid black;
+  text-align: center;
+  width: 50%;
+}
+
+.text1, .text2, .text3, .text4, .text5, .text6 {
+  width: 25px;
+}
+    </style>
+    <link rel="stylesheet" href="./images/style2.css" />
+</head>
+<div class="settingsScreen">
+    <div class="menu">
+      <ul>
+        <li> <a href="dashboard.html">Timer</a> </li>
+        <li> <a href="logdata.html">LogData</a> </li>
+        <li> <a href="diagnosis.html">Diagnosis</a> </li>
+        <li><a href="user.html"> User Administration</a> </li>
+        <li><a href="settings.html"> Settings</a> </li>
+        <li><a href="info.html"> Help</a> </li>
+        <li><a href="global.html">Global settings</a></li>
+      <ul>
+        </div>
+  </div>
+<div class="outer">
+    <div class="general">
+      <h3><u>General</u></h3>
+      <form class="generalForm">
+        <lable for="NumberofGuns">Number of Guns</label>
+        <select><option></option><option>1</option><option>2</option></select><br>
+        <label>Name:</label>
+        <input type="text" id="name"><br>
+        <label>Timer Location</label>
+        <input type="text"><br>
+        <label>FK at counter alarm</label>
+        <input type="checkbox"><br>
+        <label>Stop at C-NI</label>
+        <input type="checkbox"><br>
+      </form>
+    </div>
+    <div class="Transformer">
+      <h3><u>Transformer</u></h3>
+      <form>
+        <label>Name</label>
+          <input type="text"><br>
+        <label>Torodial Sensivity</label>
+          <input type="text"> mV/kA<br>
+        <label>Type of connection</label>
+        <select><option><option></select><br>
+      </form>
+    </div>
+  </div>
+  <div class="outer2">
+    <div class="ForeceSettings">
+      <h3><u>Proportion Valve Calibration table</u></h3>
+      <table border=1>
+        <tr>
+          <th>Voltage</th>
+          <th>Kg/N</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>10</td>
+        </tr>
+        <tr>
+          <td>10</td>
+          <td>100</td>
+        </tr>
+      </table>
+    </div>
+    <div class="Ethernet">
+      <h3><u>Ethernet</u></h3>
+      <form>
+      <label>IP-address</label>
+      <input type="text" class="text1">
+      <input type="text" class="text2">
+      <input type="text" class="text3">
+      <input type="text" class="text4"><br>
+      <label>Net Mask</label>
+      <input type="text" class="text1">
+      <input type="text" class="text2">
+      <input type="text" class="text3">
+      <input type="text" class="text4"><br>
+      <label>Gateway Address</label>
+      <input type="text" class="text1">
+      <input type="text" class="text2">
+      <input type="text" class="text3">
+      <input type="text" class="text4"><br>
+      <label>MAC-address</label>
+      <input type="text" class="text1">
+      <input type="text" class="text2">
+      <input type="text" class="text3">
+      <input type="text" class="text4">
+      <input type="text" class="text5">
+      <input type="text" class="text6"><br>
+      </form>
+    </div>
+    <div class="sensorChek">
+      <h3><u>Sensor Check</u></h3>
+      <form>
+      <input type="checkbox">Current Sensor check<br>
+      <input type="checkbox">Min. Voltage sensor check<br>
+      <input type="checkbox">Max. Voltagesensor check<br>
+      <label>Minimum current</label>
+      <input type="text"> [kA]<br>
+      <label>Minimum voltage</label>
+      <input type="text"> [v]<br>
+      <label>Maximum Voltage</label>
+      <input type="text"> [v]<br>
+      <label>Checked After</label>
+      <input type="text"> [ms]<br>
+      <label>Window</label>
+      <input type="text"> [ms]<br>
+        <input type="button" value="Default" />
+      </form>
+    </div>
+    <div class="MissingSheetDetection">
+      <h3><u>Missing Sheet Detection</u></h3>
+      <form>
+        <input type="checkbox">active<br>
+        <input type="text" class="text1">
+        <label>Percentage</label>
+      </form>
+    </div>
+  </div>
+  
