@@ -20,12 +20,12 @@
       <ul>
         </div>
   </div>
-  <div style="width:100%;float:right;background:grey;color:white;padding:5px"><a href="add.html" style="float:right;color:black">+ Add</a></div>
-  <div class="valve-area">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzNppyEz9ZU20xwuyC9YTBh7mwoSbCz6rvFRBoWAxayHi3CO23aDDZIokaP2USEEPNib4&usqp=CAU" />
+  <div style="width:100%;float:right;background:grey;color:white;padding:5px"><a href="settings.html" style="float:right;color:black" class="addTimer">+ Add</a></div>
+  <div class="valve-area1">
+    <!-- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzNppyEz9ZU20xwuyC9YTBh7mwoSbCz6rvFRBoWAxayHi3CO23aDDZIokaP2USEEPNib4&usqp=CAU" />
         <a href="config.html" id="infoWindow">
         <p align="center">Timer-1</p>
-        </a>
+        </a> -->
     
   </div>
 
@@ -33,21 +33,17 @@
 
   <script>
     $(document).ready(function() {
-      const timer = window.localStorage.getItem("timer");
-      const mainArea = $(".valve-area");
-      if(timer == null)
+      
+      var timers = window.localStorage.getItem("timers");
+
+      if(!timers)
       {
-        timer = {};
+        window.localStorage.setItem("timers",[]);
       }
       
-      
-        const html = `<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzNppyEz9ZU20xwuyC9YTBh7mwoSbCz6rvFRBoWAxayHi3CO23aDDZIokaP2USEEPNib4&usqp=CAU" />
-        <a href="config.html" id="infoWindow">
-        <p align="center">Timer-1</p>
-        </a>`;
-        mainArea.innerHTML += html;
-      
     });
+
+    
   </script>
 </body>
 </html>
